@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-data=pd.read_csv(r"C:\Users\suhas\Desktop\desktop\ML Finalized Lab programs\ML Finalized Lab programs\data set\heart_disease_data1.csv")
+data=pd.read_csv(r"data set\heart_disease_data1.csv")
 heart_disease=pd.DataFrame(data)
 print(heart_disease)
 
